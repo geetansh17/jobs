@@ -1,0 +1,345 @@
+html{
+    height: 100%;
+}
+
+
+
+@font-face
+{
+    font-family: 'DroidSans';
+    src: url('assets/DroidSans.ttf');
+}
+
+@font-face{
+    font-family: 'Comfortaa';
+    src: url('assets/Comfortaa_Regular.ttf');
+}
+
+
+
+header
+{
+    padding-top: 15px;
+    min-height: 10vh;
+     
+}
+
+.grid{
+    display: grid;
+   grid-template-columns: 15% 10% 15% 20%;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.branding{
+    font-family: 'Comfortaa';
+    /* color:  rgba(0, 0, 0, 0.52); */
+    color: #2b2b2b;
+    font-weight: 400;
+    line-height: 18px;/* Approximation due to font substitution */
+    text-align: left;
+    transform: scaleX(1.0001);/* width and height properties ommitted due to transform */
+}
+
+#one{
+    font-size: 37.18px;
+    padding-top: 2%;
+}
+
+#two{
+    font-size: 21.69px;
+    padding-top: 3%;
+    padding-left: 40%;
+    width: 100%;
+}
+
+img#searchImg, p#searchText{
+    display: none;
+}
+
+.opt{
+
+    color:  #2b2b2b;
+    font-size: 15.89px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 18px;/* Approximation due to font substitution */
+    text-align: left;
+    transform: scaleX(1.0001);/* width and height properties ommitted due to transform */
+    margin: 0 30px;
+    padding-top: 15px;
+}
+
+.button_2{
+    border-style: solid;
+    border-width: 2px;
+    border-color:  rgba(43, 43, 43, 80);
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 85%;
+    color:  #149075;
+    font-size: 19.41px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 18px;/* Approximation due to font substitution */
+    transform: scaleY(1.0003);/* width and height properties ommitted due to transform */
+    border-radius: 4px;
+    margin-left: 200%;
+    margin-top: 2%; 
+}
+
+#div2
+{
+max-width: 100%;
+color: #fff;
+min-height: 90vh;   
+background-image: url('image.jpg') ;
+background-size: cover;
+
+}
+
+#div3
+{
+margin: 50px auto auto 400px;
+background-color:  rgba(255, 255, 255, 0.92);
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.35);
+width: 35%;
+float : left;   
+}
+
+#div4
+{
+background-image: url('trip.png');
+width: 125px;
+height: 40px;
+margin-top:1%;
+margin-left : 1150px;
+background-size: cover;
+
+float: left;
+}
+
+#email,#pass
+{
+	width: 70%;
+    padding: 5px;
+    margin: auto;
+    border : none; 
+    color:  #212121;
+    font-size: 14px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 25px;/* Approximation due to font substitution */
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 2%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.1);
+    border-bottom: solid 1px #ece1e1;
+    display :inline-block;
+ 
+}
+
+
+
+
+.seven
+{
+font-family: 'DroidSans';
+color:  #2b2b2b;
+font-size: 28.24px;/* Approximation due to font substitution */
+font-weight: 700;
+line-height: 49px;/* Approximation due to font substitution */
+text-align: left;
+transform: scaleX(1.0001);
+margin-left: 36px; 
+margin-top: 25px;
+display: inline-block;
+ }
+.eight
+{
+font-family: 'DroidSans';
+color:  #2b2b2b;
+font-size: 14.12px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 30px;/* Approximation due to font substitution */
+text-align: left;
+transform: scaleX(1.0001);/* width and height properties ommitted due to transform */
+margin-left :36px;
+margin-right: 62px;
+margin-top: 15px;
+display: inline-block;
+ 
+}
+
+.nine
+{
+font-family: 'DroidSans';
+color:  #2b2b2b;
+font-size: 22.07px;/* Approximation due to font substitution */
+font-weight: 700;
+line-height: 32px;/* Approximation due to font substitution */
+text-align: left;
+transform: scaleX(1.0001);/* width and height properties ommitted due to transform */
+margin-left: 74px;
+margin-top: 30px;
+display :inline-block;
+}
+.ten
+{
+	font-family: 'DroidSans';
+color:  #212121;
+font-size: 14px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 25px;/* Approximation due to font substitution */
+text-align: left;
+margin-left: 74px;
+margin-top: 23px;
+display :inline-block;
+
+}
+
+.button
+{
+border-style: solid;
+border-width: 1px;
+border-color:  rgba(204, 204, 204, 50);
+box-sizing: border-box;
+background-color:  #149075;
+width: 344px;
+height: 49px;
+margin-left: 74px;
+margin-top:30px;
+display :inline-block;
+float : left;
+}
+
+.label1
+{
+font-family: 'DroidSans';
+color:  #ffffff;
+font-size: 17.65px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 18px;/* Approximation due to font substitution */
+text-align: left;
+transform: scaleY(1.0003);/* width and height properties ommitted due to transform */
+}
+
+
+.twelve
+{
+/* Inline Style */
+font-family: 'DroidSans';
+color:  #2b2b2b;
+font-size: 14.12px;/* Approximation due to font substitution */
+font-weight: 400;
+text-align: left;
+transform: scaleX(1.0001);/* width and height properties ommitted due to transform */
+margin-right: 142px;
+margin-top: 2px;
+display :inline-block;
+margin-left:130px;
+}
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media(max-width: 600px)
+
+{
+
+ 
+    #two{
+        
+        padding-top: 5%;
+        padding-left: 80%;
+    }
+
+    header .opt{
+        display: none;
+    }
+
+    header img#searchImg
+	{
+        position: relative;
+        display: block;
+        margin: 10% 0 0 100px;
+    }
+
+    header p#searchText
+	{
+        display: block;
+        position: relative;
+        margin: 8% 0 0 80px;
+        color:  #2b2b2b;
+        font-size: 13.84px;/* Approximation due to font substitution */
+        font-weight: 400;
+        line-height: 18px;/* Approximation due to font substitution */
+        text-align: left;
+        transform: scaleY(1.0117);/* width and height properties ommitted due to transform */
+        width: 100%;
+    }
+
+    .button_2
+	{
+        width: 140%;
+        margin-left: 120px;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+
+	
+	
+    div#div3
+	{
+        position: absolute;
+        bottom: 2%;   
+        width: 90%;
+        margin-left: 4%;
+        box-sizing: border-box;
+        padding: 1% 0% 5% 1%;
+    }
+
+	#div4
+	{
+        position: absolute;
+        bottom: 2%;   
+        width: 90%;
+        margin-left: 4%;
+        box-sizing: border-box;
+        padding: 1% 0% 5% 1%;
+    }
+
+    .seven,.eight
+	{
+        padding: 0 3% 0 3%;
+    }
+
+    
+	
+	
+	#email,#pass
+	{
+        display: none;
+    }
+
+    .login .button
+	{
+        margin: auto;
+		margin-left: 70px;
+        width: 70%;
+        display: block;
+        box-sizing: border-box;
+	}
+
+}
+
